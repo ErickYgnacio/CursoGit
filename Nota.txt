@@ -73,3 +73,5 @@ a github.
 
 *git push -u origin master: Es para ir subiendo las actualizaciones
 
+-------Se requiere de git remote add origin <LINK> y git push -u origin master para subir lo que tenemos en Repositorio
+local a github.--------
