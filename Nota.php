@@ -77,3 +77,11 @@
 
 ------------ PARA TRAER INFORMACIÓN DE REMOTO A LOCAL ------------
 	-<git pull>: Trae la información de remoto a local.
+
+	-<git tag <nombre>> : Es una etiqueta para nuestro proyecto que se crea
+		primero en git. 
+
+		<<git tag <nombre> -m >: Con este comando se le agrega una descripción al tag
+	
+	-<git push --tags>: Se suben las tags a github
+
