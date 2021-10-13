@@ -8,6 +8,9 @@
 		Conseguimos con esto que GIT cree 2 areas donde ira almacenando los archivos,
 		la primera es Area de ensayo(staging area) que es una area temporal y la segunda es Repositorio local.
 
+		U(unfollow): Cuando aparece una U a lado del archivo significa que no hemos establecido un seguimiento para
+		esos archivos, dicho de otra forma, no hemos agregado esos archivos al staging Area.
+
 	-<git add <nombre archivo> >: hace seguimiento de uno, varios o todos los archivos del 
 	proyecto y los mueve al Area de ensayo(Todo lo hace GIT internamente).
 		Cuando <nombre archivo> es "." git hara un seguimiento a todos los archivos del proyecto.
@@ -99,3 +102,4 @@
 
 		Si hay conflicto en un archivo porque se modifican en 2 ramas diferentes,
 		lo que hay que hacer es solucionar ese problema y luego hacer un commit.
+	
