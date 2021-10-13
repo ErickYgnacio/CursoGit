@@ -92,3 +92,6 @@
 <figura24>
 	-<git branch "nombre">: Crea una rama llamada "nombre".
 	-<git branch>: Muestra las ramas del proyecto y en que rama nos encontramos.
+	-<git checkout "rama"> Mueve el flujo de trabajo a la rama que se especifica entre comillas.
+	
+	
