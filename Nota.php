@@ -75,13 +75,20 @@
 	-------Se requiere de git remote add origin <LINK> y git push -u origin master para subir lo que tenemos en Repositorio
 	local a github.--------
 
------------- PARA TRAER INFORMACIÓN DE REMOTO A LOCAL ------------
-	-<git pull>: Trae la información de remoto a local.
+------------ DESCARGAR DE REMOTO A LOCAL ------------
+	-<git pull>: Trae la información que hemos modificado directamente en el repositorio remoto
+		a un repositorio local.
 
-	-<git tag <nombre>> : Es una etiqueta para nuestro proyecto que se crea
+	-<git clone URL>: Trae todo el proyecto de un repositorio remoto a una local.
+
+------------ CREACION DE TAGS --------
+	-<git tag <nombre>> : Crea una etiqueta para nuestro proyecto que se crea
 		primero en git. 
+		<<git tag <nombre> -m >: Con este comando se le agrega una descripción al tag.
 
-		<<git tag <nombre> -m >: Con este comando se le agrega una descripción al tag
-	
-	-<git push --tags>: Se suben las tags a github
+	-<git push --tags>: Se suben las tags a github.
 
+------------ RAMAS O BRANCH ------------
+<figura24>
+	-<git branch "nombre">: Crea una rama llamada "nombre".
+	-<git branch>: Muestra las ramas del proyecto y en que rama nos encontramos.
