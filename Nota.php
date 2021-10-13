@@ -96,3 +96,6 @@
 	
 	-<git merge "nombre">: El merge se debe hacer desde la rama MASTER.
 		Combina la rama master con la rama de nombre especificado
+
+		Si hay conflicto en un archivo porque se modifican en 2 ramas diferentes,
+		lo que hay que hacer es solucionar ese problema y luego hacer un commit.
