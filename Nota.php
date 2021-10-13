@@ -94,4 +94,5 @@
 	-<git branch>: Muestra las ramas del proyecto y en que rama nos encontramos.
 	-<git checkout "rama"> Mueve el flujo de trabajo a la rama que se especifica entre comillas.
 	
-	
+	-<git merge "nombre">: El merge se debe hacer desde la rama MASTER.
+		Combina la rama master con la rama de nombre especificado
